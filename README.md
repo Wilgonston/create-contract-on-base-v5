@@ -17,4 +17,3 @@ Comprehensive suite for Base with all possible tools and integrations.
 
 ## Setup
 Install all deps, run scripts as needed.
-// Generic update 36

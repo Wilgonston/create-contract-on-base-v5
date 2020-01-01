@@ -7,5 +7,3 @@ networks:
   default: development
   base: 
     host: https://mainnet.base.org
-// Generic update 15
-// Generic update 40

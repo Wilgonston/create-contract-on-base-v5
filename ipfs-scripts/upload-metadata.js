@@ -5,5 +5,3 @@ async function upload() {
   console.log(path);
 }
 upload();
-console.log('Uploaded 23');
-console.log('Uploaded 38');
