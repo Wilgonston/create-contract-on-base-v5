@@ -1,0 +1,9 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@5.0.0
+compiler:
+  solc:
+    version: 0.8.24
+networks:
+  default: development
+  base: 
+    host: https://mainnet.base.org

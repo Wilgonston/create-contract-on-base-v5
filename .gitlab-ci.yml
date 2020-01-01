@@ -1,0 +1,7 @@
+stages:
+  - test
+test:
+  image: node:20
+  script:
+    - npm install
+    - npm test

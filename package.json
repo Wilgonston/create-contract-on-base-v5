@@ -1,0 +1,39 @@
+{
+  "name": "ultimate-base-contracts",
+  "version": "0.1.0",
+  "description": "Advanced smart contracts suite for Base with all integrations",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.0.0",
+    "@openzeppelin/upgrades-core": "^1.0.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "solhint": "^4.0.0",
+    "slither": "^0.10.0",
+    "mythril": "^0.24.0",
+    "echidna": "^2.2.0",
+    "ipfs-http-client": "^60.0.0",
+    "@graphprotocol/graph-cli": "^0.30.0",
+    "truffle": "^5.0.0",
+    "ganache": "^7.0.0"
+  },
+  "scripts": {
+    "test:hardhat": "hardhat test",
+    "test:foundry": "forge test",
+    "test:truffle": "truffle test",
+    "test:brownie": "brownie test",
+    "deploy:base": "hardhat run scripts/deployERC20.ts --network base",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "audit:slither": "slither .",
+    "audit:mythril": "myth analyze contracts/ERC20Token.sol",
+    "fuzz:echidna": "echidna-test contracts/ERC20Token.sol",
+    "subgraph:deploy": "graph deploy --node https://api.thegraph.com/deploy/",
+    "ipfs:upload": "node ipfs-scripts/upload-metadata.js",
+    "docker:build": "docker build -t base-contracts .",
+    "docker:run": "docker run -it --rm base-contracts",
+    "k8s:deploy": "kubectl apply -f k8s/",
+    "helm:install": "helm install base-dev helm/charts/base-contracts/",
+    "terraform:apply": "terraform apply -auto-approve",
+    "frontend:start": "cd frontend && npm start"
+  }
+}

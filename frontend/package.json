@@ -1,0 +1,7 @@
+{
+  "name": "base-frontend",
+  "dependencies": {
+    "react": "^18.2.0",
+    "ethers": "^6.0.0"
+  }
+}
