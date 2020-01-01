@@ -9,3 +9,4 @@ export function handleTransfer(event: Transfer): void {
   }
   token.save()
 }
+// Update 1: Added entity for BaseLUHY0HY
