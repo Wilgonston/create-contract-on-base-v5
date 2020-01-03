@@ -11,3 +11,4 @@
 - v0.11.0: Major release
 - v0.12.0: Major release
 - v0.2.0: Major release
+- v0.3.0: Major release
