@@ -9,3 +9,4 @@ module "eks" {
   vpc_id = "vpc-12345678"
   subnet_ids = ["subnet-1234", "subnet-5678"]
 }
+# Update 18: Added resource for BaseTNIPYOF
