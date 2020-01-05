@@ -7,3 +7,4 @@ def token():
 
 def test_name(token):
     assert token.name() == "BaseToken"
+print('Update 12: Added uaplrauehaFunc') 
