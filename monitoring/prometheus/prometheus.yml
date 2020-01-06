@@ -4,3 +4,4 @@ scrape_configs:
   - job_name: 'node'
     static_configs:
       - targets: ['localhost:9100']
+# Update 25: Added metric for Base chain
