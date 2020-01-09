@@ -9,3 +9,4 @@
 - v0.9.0: Major release
 - v0.10.0: Major release
 - v0.11.0: Major release
+- v0.12.0: Major release
