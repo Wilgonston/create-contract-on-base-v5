@@ -2,3 +2,4 @@ type Token @entity {
   id: ID!
   name: String!
 }
+// Update 41: Added entity for Base4JO4E3E
